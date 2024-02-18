@@ -1,0 +1,70 @@
+.container{
+    background-image: url("./images/background-image.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 3px 3px 10px black;
+    width: 40%;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+img{
+    width: 80%;
+}
+
+.login-card{
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    width: 60%;
+    padding: 15px;
+    margin-right: -50px;
+    border-radius: 10px;
+}
+
+.login-content-span {
+    margin-bottom: 5px;
+}
+
+.login-content-span input{
+    width: 90%;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: 1px solid #100e0e;
+    margin-top: 5px;
+}
+
+.login-content-span input:focus{
+    outline: 1px solid green;
+}
+
+.login-submit{
+    padding: 10px;
+}
+
+button{
+     background-color: crimson;
+     color: white;
+     width: 70px;
+     height: 30px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: .8s;
+}
+
+button:hover{
+    transform: scale(0.8);
+}
